@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Faz com que o container cresça para ocupar o espaço disponível */
+}
+
+footer {
+    background-color: #56ACDE;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
